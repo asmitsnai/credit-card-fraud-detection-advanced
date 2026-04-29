@@ -18,14 +18,14 @@ Open three separate terminal splits in VS Code:
 
 Terminal 1 (Backend):
 
-Bash
 cd backend
 uvicorn main:app --reload
+
 Expected Result: Server running on http://127.0.0.1:8000
 
 Terminal 2 (Frontend):
 
-Bash
 cd frontend
 npm run dev
+
 Expected Result: Next.js dashboard running on http://localhost:3000
